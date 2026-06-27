@@ -9,8 +9,8 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: { globals: globals.jest },
     rules: {
-      'no-unused-vars': 'warn',
-      'no-undef': 'warn',
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
     },
   },
 ]);
